@@ -41,6 +41,7 @@
             this.btnOrnekIki.TabIndex = 30;
             this.btnOrnekIki.Text = "AMELE METOT";
             this.btnOrnekIki.UseVisualStyleBackColor = true;
+            this.btnOrnekIki.Click += new System.EventHandler(this.btnOrnekIki_Click);
             // 
             // listBox1
             // 
@@ -58,6 +59,7 @@
             this.btnOrnekBir.TabIndex = 28;
             this.btnOrnekBir.Text = "METOTLU DÖNGÜ";
             this.btnOrnekBir.UseVisualStyleBackColor = true;
+            this.btnOrnekBir.Click += new System.EventHandler(this.btnOrnekBir_Click);
             // 
             // Form2
             // 

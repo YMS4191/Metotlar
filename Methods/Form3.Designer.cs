@@ -49,6 +49,7 @@
             this.btnListBoxaDoldur.TabIndex = 58;
             this.btnListBoxaDoldur.Text = "GİRİLEN MAİLLERİ AYRIŞTIR";
             this.btnListBoxaDoldur.UseVisualStyleBackColor = true;
+            this.btnListBoxaDoldur.Click += new System.EventHandler(this.btnListBoxaDoldur_Click);
             // 
             // btnSesliKontrolu
             // 
@@ -58,6 +59,7 @@
             this.btnSesliKontrolu.TabIndex = 57;
             this.btnSesliKontrolu.Text = "SESLİLERİ GÖSTER";
             this.btnSesliKontrolu.UseVisualStyleBackColor = true;
+            this.btnSesliKontrolu.Click += new System.EventHandler(this.btnSesliKontrolu_Click);
             // 
             // listBox2
             // 
@@ -83,6 +85,7 @@
             this.btnKirp.TabIndex = 54;
             this.btnKirp.Text = "SON ÜÇ HARFİ KIRP";
             this.btnKirp.UseVisualStyleBackColor = true;
+            this.btnKirp.Click += new System.EventHandler(this.btnKirp_Click);
             // 
             // btnArkaPlanDegistir
             // 
@@ -92,6 +95,7 @@
             this.btnArkaPlanDegistir.TabIndex = 53;
             this.btnArkaPlanDegistir.Text = "ARKAPLAN DEĞİŞTİR";
             this.btnArkaPlanDegistir.UseVisualStyleBackColor = true;
+            this.btnArkaPlanDegistir.Click += new System.EventHandler(this.btnArkaPlanDegistir_Click);
             // 
             // cmbRenkler
             // 
@@ -118,6 +122,7 @@
             this.btnOrnekDort.TabIndex = 51;
             this.btnOrnekDort.Text = "TOPLAMIN KÜPÜ";
             this.btnOrnekDort.UseVisualStyleBackColor = true;
+            this.btnOrnekDort.Click += new System.EventHandler(this.btnOrnekDort_Click);
             // 
             // btnOrnekUc
             // 
@@ -127,6 +132,7 @@
             this.btnOrnekUc.TabIndex = 50;
             this.btnOrnekUc.Text = "KADAR SAYDIR";
             this.btnOrnekUc.UseVisualStyleBackColor = true;
+            this.btnOrnekUc.Click += new System.EventHandler(this.btnOrnekUc_Click);
             // 
             // txtDeger2
             // 
@@ -160,6 +166,7 @@
             this.Controls.Add(this.txtDeger1);
             this.Name = "Form3";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

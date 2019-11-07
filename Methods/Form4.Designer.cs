@@ -43,6 +43,7 @@
             this.btnMailOlustur.TabIndex = 52;
             this.btnMailOlustur.Text = "MAİL ADRESİMİ OLUŞTUR";
             this.btnMailOlustur.UseVisualStyleBackColor = true;
+            this.btnMailOlustur.Click += new System.EventHandler(this.btnMailOlustur_Click);
             // 
             // cmbSunucuAdlari
             // 
