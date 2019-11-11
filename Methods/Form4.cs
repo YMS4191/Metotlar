@@ -39,6 +39,7 @@ namespace Methods
             string mail = $"{username[0].ToLower()}.{username[username.Length - 1].ToLower()}@{domain}";
             MessageBox.Show(mail);
         }
+   
 
         private void btnMailOlustur_Click(object sender, EventArgs e)
         {
@@ -51,7 +52,6 @@ namespace Methods
                 Mail(txtMailKullaniciAdi.Text, cmbSunucuAdlari.Text);
             }
 
-            Mail("",)
         }
     }
 }

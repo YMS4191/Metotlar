@@ -47,6 +47,7 @@
             this.btnRenkYakalayici.TabIndex = 31;
             this.btnRenkYakalayici.Text = "RENGİ YAKALA";
             this.btnRenkYakalayici.UseVisualStyleBackColor = false;
+            this.btnRenkYakalayici.Click += new System.EventHandler(this.btnRenkYakalayici_Click);
             // 
             // btnDiziIsleme
             // 
@@ -56,6 +57,7 @@
             this.btnDiziIsleme.TabIndex = 30;
             this.btnDiziIsleme.Text = "DİZİ İŞLEME";
             this.btnDiziIsleme.UseVisualStyleBackColor = true;
+            this.btnDiziIsleme.Click += new System.EventHandler(this.btnDiziIsleme_Click);
             // 
             // btnOrnekUc
             // 
@@ -65,6 +67,7 @@
             this.btnOrnekUc.TabIndex = 29;
             this.btnOrnekUc.Text = "METİNSEL DEĞİŞİKLİK";
             this.btnOrnekUc.UseVisualStyleBackColor = true;
+            this.btnOrnekUc.Click += new System.EventHandler(this.btnOrnekUc_Click);
             // 
             // txtSoyad
             // 
@@ -88,6 +91,7 @@
             this.btnOrnekIki.TabIndex = 26;
             this.btnOrnekIki.Text = "ÇİFT Mİ TEK Mİ";
             this.btnOrnekIki.UseVisualStyleBackColor = true;
+            this.btnOrnekIki.Click += new System.EventHandler(this.btnOrnekIki_Click);
             // 
             // txtOrnekIki
             // 
@@ -104,6 +108,7 @@
             this.btnToplamaYap.TabIndex = 24;
             this.btnToplamaYap.Text = "TOPLAMA YAP";
             this.btnToplamaYap.UseVisualStyleBackColor = true;
+            this.btnToplamaYap.Click += new System.EventHandler(this.btnToplamaYap_Click);
             // 
             // Form5
             // 

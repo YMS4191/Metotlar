@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.txtMailAdresleri = new System.Windows.Forms.TextBox();
-            this.btnRef = new System.Windows.Forms.Button();
             this.btnParams = new System.Windows.Forms.Button();
             this.btnOutUc = new System.Windows.Forms.Button();
             this.btnOutIki = new System.Windows.Forms.Button();
@@ -45,15 +44,6 @@
             this.txtMailAdresleri.Size = new System.Drawing.Size(331, 68);
             this.txtMailAdresleri.TabIndex = 27;
             // 
-            // btnRef
-            // 
-            this.btnRef.Location = new System.Drawing.Point(12, 270);
-            this.btnRef.Name = "btnRef";
-            this.btnRef.Size = new System.Drawing.Size(331, 40);
-            this.btnRef.TabIndex = 26;
-            this.btnRef.Text = "REF ANAHTAR KELİMESİ";
-            this.btnRef.UseVisualStyleBackColor = true;
-            // 
             // btnParams
             // 
             this.btnParams.Location = new System.Drawing.Point(12, 150);
@@ -62,6 +52,7 @@
             this.btnParams.TabIndex = 25;
             this.btnParams.Text = "PARAMS ANAHTAR KELİMESİ";
             this.btnParams.UseVisualStyleBackColor = true;
+            this.btnParams.Click += new System.EventHandler(this.btnParams_Click);
             // 
             // btnOutUc
             // 
@@ -71,6 +62,7 @@
             this.btnOutUc.TabIndex = 24;
             this.btnOutUc.Text = "OUT ANAHTAR KELİMESİ (ÖRNEK ÜÇ)";
             this.btnOutUc.UseVisualStyleBackColor = true;
+            this.btnOutUc.Click += new System.EventHandler(this.btnOutUc_Click);
             // 
             // btnOutIki
             // 
@@ -80,13 +72,14 @@
             this.btnOutIki.TabIndex = 23;
             this.btnOutIki.Text = "OUT ANAHTAR KELİMESİ (ÖRNEK İKİ)";
             this.btnOutIki.UseVisualStyleBackColor = true;
+            this.btnOutIki.Click += new System.EventHandler(this.btnOutIki_Click);
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(349, 12);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(159, 303);
+            this.listBox1.Size = new System.Drawing.Size(159, 251);
             this.listBox1.TabIndex = 22;
             // 
             // btnOut
@@ -97,14 +90,14 @@
             this.btnOut.TabIndex = 21;
             this.btnOut.Text = "OUT ANAHTAR KELİMESİ";
             this.btnOut.UseVisualStyleBackColor = true;
+            this.btnOut.Click += new System.EventHandler(this.btnOut_Click);
             // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(519, 323);
+            this.ClientSize = new System.Drawing.Size(519, 275);
             this.Controls.Add(this.txtMailAdresleri);
-            this.Controls.Add(this.btnRef);
             this.Controls.Add(this.btnParams);
             this.Controls.Add(this.btnOutUc);
             this.Controls.Add(this.btnOutIki);
@@ -120,7 +113,6 @@
         #endregion
 
         private System.Windows.Forms.TextBox txtMailAdresleri;
-        private System.Windows.Forms.Button btnRef;
         private System.Windows.Forms.Button btnParams;
         private System.Windows.Forms.Button btnOutUc;
         private System.Windows.Forms.Button btnOutIki;
